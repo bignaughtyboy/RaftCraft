@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "idle:water/drink"
+  },
+  "sends_telemetry_event": false
+}
