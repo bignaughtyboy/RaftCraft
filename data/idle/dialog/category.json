@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "카테고리",
+    "bold": true
+  },
+  "exit_action": {
+    "label": {
+      "text": "나가기",
+      "bold": true
+    }
+  },
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "자원",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "idle:craft_1"
+      }
+    },
+    {
+      "label": {
+        "text": "건설",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "idle:craft_2"
+      }
+    },
+    {
+      "label": {
+        "text": "장비",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "idle:craft_3"
+      }
+    },
+    {
+      "label": {
+        "text": "무기",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "idle:craft_4"
+      }
+    }
+  ]
+}
