@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 3773,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_name": {
+                  "text": "판자",
+                  "bold": true,
+                  "italic": false
+                },
+                "custom_model_data": {
+                  "strings": [
+                    "wood"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 1887,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_name": {
+                  "text": "플라스틱",
+                  "bold": true,
+                  "italic": false
+                },
+                "custom_model_data": {
+                  "strings": [
+                    "plastic"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 1415,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_name": {
+                  "text": "야자나무 잎",
+                  "bold": true,
+                  "italic": false
+                },
+                "custom_model_data": {
+                  "strings": [
+                    "leaf"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 943
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 708
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 613
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "weight": 330
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "weight": 330
+        }
+      ]
+    }
+  ]
+}
