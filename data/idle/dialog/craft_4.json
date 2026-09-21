@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "무기",
+    "bold": true
+  },
+  "exit_action": {
+    "label": {
+      "text": "뒤로가기",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "idle:category"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "나무 창",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "금속 창",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "활",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "돌 화살",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "나무 도끼",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "금속 도끼",
+        "bold": true
+      }
+    }
+  ]
+}

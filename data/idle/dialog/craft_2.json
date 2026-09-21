@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "제작",
+    "bold": true
+  },
+  "exit_action": {
+    "label": {
+      "text": "뒤로가기",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "idle:category"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "빈컵",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "단순 정수기",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "단순 그릴",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "단순 침대",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "포획 그물",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "제련기",
+        "bold": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "자원",
+    "bold": true
+  },
+  "exit_action": {
+    "label": {
+      "text": "뒤로가기",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "idle:category"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "로프",
+        "bold": true
+      },
+      "tooltip": {
+        "atlas": "minecraft:items",
+        "sprite": "minecraft:item/bamboo",
+        "extra": [
+          {
+            "text": "x2"
+          }
+        ]
+      }
+    },
+    {
+      "label": {
+        "text": "못",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "경첩",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "젖은 벽돌",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "회로 기판",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "배터리",
+        "bold": true
+      }
+    }
+  ]
+}

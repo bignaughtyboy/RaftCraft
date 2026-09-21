@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "장비",
+    "bold": true
+  },
+  "exit_action": {
+    "label": {
+      "text": "뒤로가기",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "idle:category"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "망치",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "플라스틱 고리",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "스크랩 고리",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "낚시대",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "쌍안경",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "산소통",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "오리발",
+        "bold": true
+      }
+    }
+  ]
+}
