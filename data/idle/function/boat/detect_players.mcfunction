@@ -1,0 +1,2 @@
+execute as @a at @s positioned ~ ~-2 ~ if entity @e[tag=p2, distance=..2] run execute as @a at @s run tag @s add on_platform
+execute as @a at @s positioned ~ ~-2 ~ unless entity @e[tag=p2, distance=..2] run execute as @a at @s run tag @s remove on_platform
